@@ -1,0 +1,95 @@
+$bc1: #fd7510;
+$bc2: #2050e2;
+$bc3: #82ba00;
+$bc4: #ffee28;
+$bc5: #fe7fb7;
+$bc: $bc1, $bc2, $bc3, $bc4, $bc5;
+
+##{table1} {
+    border: 1px solid black;
+    width: 100%;
+  }
+
+//  $i : 1;
+ @for $i from 1 through 5 {
+//@while $i < 6 {    
+
+    td.td-soal#{$i} {
+        padding-bottom:20px;
+    } 
+
+    td.td-jawaban#{$i} {
+        padding-bottom:20px;
+    } 
+
+    ##{text-soal}#{$i}
+    {
+        margin-top: 5px;
+        float:left;
+        //background-color: lighten($base-color, $i * 5%);
+    }
+
+    ##{text-jawaban}#{$i}
+    {
+        padding-top:5px;
+    }
+
+    ##{soal}#{$i}
+    {
+        //background-color: lighten($base-color, $i * 5%);
+        background-color: nth($bc, $i);
+        width: 32px;
+        height: 32px;
+        float: left;
+        margin-left: 10px;
+        //transform: rotate(-45deg);
+        //-webkit-transform: rotate(-45deg);
+    }
+
+    ##{soal}#{$i} div.hovered
+    {
+        background: #aaa;
+    }
+
+    ##{soal}#{$i}.corect
+    {
+        background: red;
+    }
+
+    ##{center-point}#{$i}
+    {
+        width: 30px;
+        height: 30px;
+        padding: 1px;
+        float:left; 
+    }
+
+    ##{jawaban}#{$i}
+    {
+        z-index: -1;
+        background-color: crimson;
+        width: 32px;
+        height: 32px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    ##{kolom-soal}#{$i} div
+    {
+        float: left;
+    }
+
+    ##{kolom-jawaban}#{$i} div
+    {
+        float: left;
+    }
+
+    .jqSimpleConnect_#{$i - 1}{
+         //background-color: lighten($base-color, $i * 20%);
+        background-color: nth($bc, $i);
+    }
+
+}
+
+
+

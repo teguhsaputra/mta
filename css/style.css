@@ -1,0 +1,310 @@
+#table1 {
+  border: 1px solid black;
+  width: 100%;
+}
+
+td.td-soal1 {
+  padding-bottom: 20px;
+}
+
+td.td-jawaban1 {
+  padding-bottom: 20px;
+}
+
+#text-soal1 {
+  margin-top: 5px;
+  float: left;
+}
+
+#text-jawaban1 {
+  padding-top: 5px;
+}
+
+#soal1 {
+  background-color: #fd7510;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-left: 10px;
+}
+
+#soal1 div.hovered {
+  background: #aaa;
+}
+
+#soal1.corect {
+  background: red;
+}
+
+#center-point1 {
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  float: left;
+}
+
+#jawaban1 {
+  z-index: -1;
+  background-color: crimson;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 10px;
+}
+
+#kolom-soal1 div {
+  float: left;
+}
+
+#kolom-jawaban1 div {
+  float: left;
+}
+
+.jqSimpleConnect_0 {
+  background-color: #fd7510;
+}
+
+td.td-soal2 {
+  padding-bottom: 20px;
+}
+
+td.td-jawaban2 {
+  padding-bottom: 20px;
+}
+
+#text-soal2 {
+  margin-top: 5px;
+  float: left;
+}
+
+#text-jawaban2 {
+  padding-top: 5px;
+}
+
+#soal2 {
+  background-color: #2050e2;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-left: 10px;
+}
+
+#soal2 div.hovered {
+  background: #aaa;
+}
+
+#soal2.corect {
+  background: red;
+}
+
+#center-point2 {
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  float: left;
+}
+
+#jawaban2 {
+  z-index: -1;
+  background-color: crimson;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 10px;
+}
+
+#kolom-soal2 div {
+  float: left;
+}
+
+#kolom-jawaban2 div {
+  float: left;
+}
+
+.jqSimpleConnect_1 {
+  background-color: #2050e2;
+}
+
+td.td-soal3 {
+  padding-bottom: 20px;
+}
+
+td.td-jawaban3 {
+  padding-bottom: 20px;
+}
+
+#text-soal3 {
+  margin-top: 5px;
+  float: left;
+}
+
+#text-jawaban3 {
+  padding-top: 5px;
+}
+
+#soal3 {
+  background-color: #82ba00;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-left: 10px;
+}
+
+#soal3 div.hovered {
+  background: #aaa;
+}
+
+#soal3.corect {
+  background: red;
+}
+
+#center-point3 {
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  float: left;
+}
+
+#jawaban3 {
+  z-index: -1;
+  background-color: crimson;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 10px;
+}
+
+#kolom-soal3 div {
+  float: left;
+}
+
+#kolom-jawaban3 div {
+  float: left;
+}
+
+.jqSimpleConnect_2 {
+  background-color: #82ba00;
+}
+
+td.td-soal4 {
+  padding-bottom: 20px;
+}
+
+td.td-jawaban4 {
+  padding-bottom: 20px;
+}
+
+#text-soal4 {
+  margin-top: 5px;
+  float: left;
+}
+
+#text-jawaban4 {
+  padding-top: 5px;
+}
+
+#soal4 {
+  background-color: #ffee28;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-left: 10px;
+}
+
+#soal4 div.hovered {
+  background: #aaa;
+}
+
+#soal4.corect {
+  background: red;
+}
+
+#center-point4 {
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  float: left;
+}
+
+#jawaban4 {
+  z-index: -1;
+  background-color: crimson;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 10px;
+}
+
+#kolom-soal4 div {
+  float: left;
+}
+
+#kolom-jawaban4 div {
+  float: left;
+}
+
+.jqSimpleConnect_3 {
+  background-color: #ffee28;
+}
+
+td.td-soal5 {
+  padding-bottom: 20px;
+}
+
+td.td-jawaban5 {
+  padding-bottom: 20px;
+}
+
+#text-soal5 {
+  margin-top: 5px;
+  float: left;
+}
+
+#text-jawaban5 {
+  padding-top: 5px;
+}
+
+#soal5 {
+  background-color: #fe7fb7;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-left: 10px;
+}
+
+#soal5 div.hovered {
+  background: #aaa;
+}
+
+#soal5.corect {
+  background: red;
+}
+
+#center-point5 {
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  float: left;
+}
+
+#jawaban5 {
+  z-index: -1;
+  background-color: crimson;
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 10px;
+}
+
+#kolom-soal5 div {
+  float: left;
+}
+
+#kolom-jawaban5 div {
+  float: left;
+}
+
+.jqSimpleConnect_4 {
+  background-color: #fe7fb7;
+}
+/*# sourceMappingURL=style.css.map */

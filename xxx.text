@@ -1,0 +1,53 @@
+#text-soal {
+  margin-top: 15px;
+}
+
+#text-jawaban {
+  margin-top: 15px;
+}
+
+#soal {
+  background-color: darkcyan;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+}
+
+#soal div.hovered {
+  background: #aaa;
+}
+
+#soal.corect {
+  background: red;
+}
+
+#center-point {
+  width: 50px;
+  height: 50px;
+  padding: 1px;
+}
+
+#jawaban {
+  z-index: -1;
+  color: #fff;
+  background-color: crimson;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+#table1 {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.kolom-soal div {
+  float: left;
+}
+
+.kolom-jawaban div {
+  float: left;
+}
+/*# sourceMappingURL=style.css.map */
